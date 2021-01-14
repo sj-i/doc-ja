@@ -57,11 +57,11 @@ echo $class::CONSTANT."\n";
   
  <para>
   特別な <constant>::class</constant> 定数を使うと、
-  コンパイル時の完全修飾クラス名が解決できます。
-  これは名前空間クラスに役立ちます。
+  コンパイル時に完全修飾クラス名への解決ができます。
+  これは名前空間内のクラスで役立ちます。
  </para>
  <example>
-  <title>名前空間の ::class の例</title>
+  <title>名前空間内での ::class の例</title>
   <programlisting role="php">
 <![CDATA[
 <?php
